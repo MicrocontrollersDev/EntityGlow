@@ -1,13 +1,14 @@
 {
   "compatibilityLevel": "JAVA_8",
   "minVersion": "0.7",
-  "package": "org.polyfrost.example.mixin",
+  "package": "dev.microcontrollers.entityglow.mixin",
   "refmap": "mixins.${id}.refmap.json",
   "injectors": {
     "maxShiftBy": 5
   },
   "client": [
-    "MinecraftMixin"
+    "EntityMixin",
+    "RenderGlobalMixin"
   ],
   "verbose": true
 }

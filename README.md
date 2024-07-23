@@ -1,22 +1,7 @@
-# OneConfigExampleMod
+# Entity Glow
 
-![Powered by OneConfig](https://polyfrost.org/media/branding/badges/badge_1.svg)
-![Compact Powered by OneConfig](https://polyfrost.org/media/branding/badges/badge_2.svg)
-![Minimal Powered by OneConfig](https://polyfrost.org/media/branding/badges/badge_3.svg)
-![Minimal Compact Powered by OneConfig](https://polyfrost.org/media/branding/badges/badge_4.svg)
+This mod is a simple backport of 1.9+'s entity glow/outline feature. The code exists in 1.8.9 but isn't used in the same way. Currently, you need to be in spectator and pressing a specific keybind. However, servers (or at the least Hypixel), sends the necessary information about player entities (at the least), so we can add a check and properly render their glow. Unfortunately the item NBT data is not sent to 1.8.9 clients.
 
-Example mod implementing OneConfig.
+### Modpack?
 
-## How to use
-
-- Copy the template either by using GitHub's "Use this template" feature or downloading the repo manually.
-- **Remove the license named "LICENSE-TEMPLATE" and choose a new one.**
-- Refactor the template (specifically, the modid, version and name in the gradle.properties and most of the class names)
-  to a different name.
-- Have fun modding! :D
-
-## Need to update to a newer commit of this template?
-
-Check out these update guides:
-- [Updating to commit `fd8e095`](update-to-fd8e095.md) (most recent update)
-- [Updating to commit `301a6ca`](update-to-301a6ca.md)
+If you want to use my mods in a Modpack, I ask that the modpack is only available on Modrinth. Feel free to reach out to me if you would like to discuss further.

@@ -2,13 +2,13 @@
   {
     "modid": "${id}",
     "name": "${name}",
-    "description": "",
+    "description": "Backports 1.9+'s entity glow/outline feature to 1.8.9",
     "version": "${version}",
     "mcversion": "${mcVersionStr}",
-    "url": "",
+    "url": "https://modrinth.com/mod/entity-glow",
     "updateUrl": "",
     "authorList": [
-      "Your Name"
+      "Microcontrollers"
     ],
     "credits": "",
     "logoFile": "",
