@@ -1,3 +1,5 @@
+# Moved to https://codeberg.org/MicrocontrollersDev/EntityGlow
+
 # Entity Glow
 
 ![Powered by OneConfig](https://polyfrost.org/media/branding/badges/badge_1.svg)
